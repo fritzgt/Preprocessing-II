@@ -7,15 +7,26 @@ nav {
   padding: 20px 0;
   border-bottom: 2px dashed @navigation-border;
 
+  @media @mobile {
+    justify-content: space-around;
+  }
+
   h1 {
     flex-grow: 2;
+
+    @media @mobile {
+      display: none;
+    }
   }
 
   a {
     font-size: 16px;
-    // margin: 20px auto;
     text-decoration: none;
     color: black;
     flex-grow: 1;
+
+    @media @mobile {
+      flex-grow: 0;
+    }
   }
 }
