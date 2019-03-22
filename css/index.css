@@ -174,7 +174,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 nav h1 {
   flex-grow: 2;
@@ -188,7 +188,7 @@ nav a {
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
-  background: #FFEBCD;
+  background: #ffebcd;
 }
 .footer p {
   text-align: center;
@@ -197,7 +197,7 @@ nav a {
   padding: 20px;
 }
 header {
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 header h2 {
   padding-top: 20px;
@@ -221,7 +221,7 @@ header h2 {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -240,7 +240,7 @@ header h2 {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 2px dashed #c0c0c0;
   display: flex;
   justify-content: space-between;
 }
